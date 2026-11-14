@@ -195,12 +195,25 @@ body {
 }
 
 .logo-symbol {
-  font-family: var(--font-mono);
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-gold);
+  background: linear-gradient(135deg, rgba(242, 200, 17, 0.2), rgba(0, 210, 255, 0.15));
+  border-radius: 10px;
+  border: 1px solid rgba(242, 200, 17, 0.4);
+  font-size: 1.05rem;
+  box-shadow: 0 0 12px rgba(242, 200, 17, 0.25);
+  transition: var(--transition);
+}
+
+.nav-logo:hover .logo-symbol {
+  transform: rotate(5deg) scale(1.05);
+  border-color: var(--accent-cyan);
   color: var(--accent-cyan);
-  background: rgba(0, 210, 255, 0.1);
-  padding: 0.2rem 0.5rem;
-  border-radius: 6px;
-  border: 1px solid rgba(0, 210, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
 }
 
 .accent-text {
