@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elsayed Elkassas | Data Analyst & BI Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Elsayed Elkassas - Data Analyst, BI Specialist, and Computer Science Student proficient in Power BI, DAX, SQL, and Python.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Glow Mesh -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-symbol">&lt;EE/&gt;</span>
+        <span class="logo-text">Elsayed<span class="accent-text">.BI</span></span>
+        <span class="status-indicator" title="Available for opportunities"></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user-astronaut"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-layer-group"></i> Skills</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-chart-pie"></i> Projects</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme" title="Toggle Light/Dark Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="Elsayed_Elkassas_CV.pdf" download="Elsayed_Elkassas_CV.pdf" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-file-arrow-down"></i> <span>Resume</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-wrapper">
+            <span class="hero-badge pulse">
+              <span class="pulse-dot"></span> Available for Data Analyst & BI Roles
+            </span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Elsayed Elkassas</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+          </h2>
+          <p class="hero-description">
+            Passionate Data Analyst & Computer Science student specializing in building end-to-end interactive enterprise dashboards in <strong>Power BI</strong>, performing rigorous ETL & data normalization in <strong>Power Query</strong>, and uncovering actionable business intelligence through complex <strong>SQL</strong> and <strong>DAX</strong> modeling.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-chart-line"></i> View Projects
+            </a>
+            <a href="Elsayed_Elkassas_CV.pdf" download="Elsayed_Elkassas_CV.pdf" class="btn btn-secondary">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+            <a href="https://github.com/elsayed-elkassas" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/elsayed-elkassas-84686638a" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          <!-- Hero Metrics -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-target="73943">73,943+</span>
+              <span class="stat-label">Units Monitored</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="13.8">$13.8B+</span>
+              <span class="stat-label">Portfolio Value Tracked</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="8">8</span>
+              <span class="stat-label">Enterprise Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Data Integrity & Star Schema</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-glass">
+            <div class="avatar-ring">
+              <img src="images/avatar.png" onerror="this.src='https://github.com/elsayed-elkassas.png'" alt="Elsayed Elkassas" class="avatar-img">
+              <div class="avatar-badge" title="Verified Data Analyst">
+                <i class="fa-solid fa-check"></i>
+              </div>
+            </div>
+            <div class="profile-card-info">
+              <h3>Elsayed Elkassas</h3>
+              <p class="role-tag">Data Analyst & BI Specialist</p>
+              <div class="location-tag">
+                <i class="fa-solid fa-location-dot"></i> Egypt &bull; Open to Remote
+              </div>
+              <div class="quick-tags">
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>SQL Server</span>
+                <span>Python</span>
+              </div>
+            </div>
+            <div class="card-glass-footer">
+              <a href="mailto:elsayedelkasas79@gmail.com" class="social-icon" title="Email"><i class="fa-solid fa-envelope"></i></a>
+              <a href="https://github.com/elsayed-elkassas" target="_blank" rel="noopener" class="social-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/elsayed-elkassas-84686638a" target="_blank" rel="noopener" class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="tel:+201063160081" class="social-icon" title="Phone / WhatsApp"><i class="fa-solid fa-phone"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-id-card"></i> Profile</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Bridging Computer Science rigor with real-world Business Intelligence</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel">
+            <div class="about-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am a <strong>Computer Science student</strong> at the Faculty of Computers and Information, Kafrelsheikh University, and a dedicated <strong>Data Analyst</strong>. I combine deep analytical curiosity with solid programming foundations to turn complex datasets into high-value decision support tools.
+            </p>
+            <p>
+              Currently expanding my industry acumen through intensive training at <strong>Route Academy</strong>, applying enterprise-level data cleaning, relational Star Schema modeling, and executive storytelling on live business datasets.
+            </p>
+          </div>
+
+          <div class="about-card glass-panel">
+            <div class="about-icon">
+              <i class="fa-solid fa-compass-drafting"></i>
+            </div>
+            <h3>My Data Philosophy</h3>
+            <ul class="philosophy-list">
+              <li>
+                <i class="fa-solid fa-database text-accent"></i>
+                <div>
+                  <strong>Flawless ETL & Cleansing:</strong> Bad data in = bad decisions out. I prioritize normalizing messy schemas, isolating control rows, and handling missing demographics with mathematical precision.
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-network-wired text-accent"></i>
+                <div>
+                  <strong>Scalable Star Schemas:</strong> Structuring fact and dimension tables for lightning-fast DAX performance and intuitive drill-downs.
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-palette text-accent"></i>
+                <div>
+                  <strong>Executive-Ready UI/UX:</strong> Dashboards should be visually engaging and self-explanatory. I use custom Canva design grids and intentional color palettes to reduce cognitive load for stakeholders.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-microchip"></i> Arsenal</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">A comprehensive toolkit optimized for modern end-to-end data pipelines</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon cat-bi"><i class="fa-solid fa-chart-column"></i></div>
+              <h3>BI & Visualization</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill"><i class="fa-solid fa-chart-simple"></i> Microsoft Power BI</div>
+              <div class="skill-pill"><i class="fa-solid fa-calculator"></i> Advanced DAX</div>
+              <div class="skill-pill"><i class="fa-solid fa-filter"></i> Power Query (M)</div>
+              <div class="skill-pill"><i class="fa-solid fa-sitemap"></i> Star Schema Modeling</div>
+              <div class="skill-pill"><i class="fa-solid fa-paintbrush"></i> Canva (Dashboard UI/UX)</div>
+              <div class="skill-pill"><i class="fa-solid fa-table"></i> Excel (Pivot, Formulas)</div>
+              <div class="skill-pill"><i class="fa-solid fa-stopwatch"></i> Time-Intelligence Logic</div>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon cat-db"><i class="fa-solid fa-database"></i></div>
+              <h3>Databases & Querying</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill"><i class="fa-solid fa-server"></i> SQL Server / SSMS</div>
+              <div class="skill-pill"><i class="fa-solid fa-code-fork"></i> Complex Joins</div>
+              <div class="skill-pill"><i class="fa-solid fa-network-wired"></i> CTEs & Subqueries</div>
+              <div class="skill-pill"><i class="fa-solid fa-window-restore"></i> Window Functions</div>
+              <div class="skill-pill"><i class="fa-solid fa-table-list"></i> Views & Aggregations</div>
+              <div class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</div>
+              <div class="skill-pill"><i class="fa-solid fa-shield-halved"></i> Data Validation</div>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon cat-py"><i class="fa-brands fa-python"></i></div>
+              <h3>Programming & Science</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill"><i class="fa-brands fa-python"></i> Python</div>
+              <div class="skill-pill"><i class="fa-solid fa-cubes"></i> Pandas</div>
+              <div class="skill-pill"><i class="fa-solid fa-square-root-variable"></i> NumPy</div>
+              <div class="skill-pill"><i class="fa-solid fa-robot"></i> Scikit-learn</div>
+              <div class="skill-pill"><i class="fa-solid fa-code"></i> C#</div>
+              <div class="skill-pill"><i class="fa-solid fa-diagram-project"></i> Data Structures & Algo</div>
+              <div class="skill-pill"><i class="fa-solid fa-chart-line"></i> Applied Statistics</div>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="cat-icon cat-tools"><i class="fa-solid fa-toolbox"></i></div>
+              <h3>Tools & Engineering</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</div>
+              <div class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</div>
+              <div class="skill-pill"><i class="fa-solid fa-terminal"></i> VS Code</div>
+              <div class="skill-pill"><i class="fa-brands fa-docker"></i> Docker</div>
+              <div class="skill-pill"><i class="fa-solid fa-arrows-rotate"></i> Automated ETL</div>
+              <div class="skill-pill"><i class="fa-solid fa-file-contract"></i> Markdown & Docs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world enterprise solutions sourced directly from my GitHub</p>
+        </div>
+
+        <div class="featured-projects-container">
+          <!-- Featured Project 1: Morshedy Real Estate -->
+          <article class="project-showcase glass-panel">
+            <div class="project-showcase-grid">
+              <!-- Visual Gallery -->
+              <div class="project-media">
+                <div class="main-image-wrapper">
+                  <img src="images/home_page.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Home%20Page.png'" alt="Morshedy Real Estate Dashboard - Home Page" id="morshedy-main-img" class="zoomable-image">
+                  <button class="expand-btn" onclick="openLightbox(document.getElementById('morshedy-main-img').src, 'Morshedy Real Estate Financial & Collection Intelligence')">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i> Fullscreen
+                  </button>
+                </div>
+                <div class="thumbnail-strip">
+                  <button class="thumb-btn active" onclick="swapImage('morshedy-main-img', 'images/home_page.png', 'https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Home%20Page.png', this)">
+                    <img src="images/home_page.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Home%20Page.png'" alt="Home">
+                    <span>Navigation</span>
+                  </button>
+                  <button class="thumb-btn" onclick="swapImage('morshedy-main-img', 'images/global_summary.png', 'https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Global%20summary.png', this)">
+                    <img src="images/global_summary.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Global%20summary.png'" alt="Global Summary">
+                    <span>Global Summary</span>
+                  </button>
+                  <button class="thumb-btn" onclick="swapImage('morshedy-main-img', 'images/business_projects.png', 'https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Business%20Projects%20Page.png', this)">
+                    <img src="images/business_projects.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Business%20Projects%20Page.png'" alt="Business Projects">
+                    <span>Projects Hub</span>
+                  </button>
+                  <button class="thumb-btn" onclick="swapImage('morshedy-main-img', 'images/katameya_overall.png', 'https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/One-Katameya-overall.png', this)">
+                    <img src="images/katameya_overall.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/One-Katameya-overall.png'" alt="Katameya">
+                    <span>Katameya</span>
+                  </button>
+                  <button class="thumb-btn" onclick="swapImage('morshedy-main-img', 'images/zahra_overall.png', 'https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Zahraa-north-overall.png', this)">
+                    <img src="images/zahra_overall.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard/main/Zahraa-north-overall.png'" alt="Zahra">
+                    <span>Zahra Coast</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Project Description -->
+              <div class="project-info">
+                <div class="project-badge-row">
+                  <span class="badge badge-accent"><i class="fa-solid fa-star"></i> Enterprise BI Solution</span>
+                  <span class="badge badge-neutral"><i class="fa-solid fa-building"></i> Real Estate & Finance</span>
+                </div>
+
+                <h3 class="project-heading">Morshedy Real Estate Financial & Collection Dashboard</h3>
+                <p class="project-lead">
+                  An enterprise-grade Power BI intelligence dashboard tracking installment lifecycles, cash collections, and banking exposure across <strong>8 major real estate developments</strong> comprising over <strong>73,000 units</strong>.
+                </p>
+
+                <div class="project-key-stats">
+                  <div class="p-stat">
+                    <strong>$13.87B</strong>
+                    <span>Total Invoiced</span>
+                  </div>
+                  <div class="p-stat">
+                    <strong>$13.08B</strong>
+                    <span>Collected (94.3%)</span>
+                  </div>
+                  <div class="p-stat">
+                    <strong>$791M</strong>
+                    <span>Outstanding Risk</span>
+                  </div>
+                  <div class="p-stat">
+                    <strong>8 Projects</strong>
+                    <span>4 Pages Each</span>
+                  </div>
+                </div>
+
+                <div class="project-highlights">
+                  <h4><i class="fa-solid fa-gears text-accent"></i> Key Engineering Highlights</h4>
+                  <ul>
+                    <li><strong>ETL & Data Cleansing (Power Query):</strong> Normalized wide tables across 7 installment stages, standardized 8 project worksheets, and isolated control/summary rows to guarantee accurate customer counts.</li>
+                    <li><strong>Lifecycle Business Classification:</strong> Dynamically classified installments into <em>PAID</em>, <em>DUE - NOT PAID</em>, and <em>NOT DUE</em>.</li>
+                    <li><strong>Advanced DAX Engine:</strong> Programmed time-intelligence segmentation (segregating historical <em>OLD</em> transactions from active <em>NEW</em> billing cycles) and dynamic collection rate KPIs.</li>
+                    <li><strong>Executive UI/UX Architecture:</strong> Multi-page navigation portal designed with Canva layout grids, featuring dedicated Cash, Bank, and Bank-wise risk exposure views.</li>
+                  </ul>
+                </div>
+
+                <div class="project-tech-stack">
+                  <span class="tech-tag"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                  <span class="tech-tag"><i class="fa-solid fa-calculator"></i> DAX</span>
+                  <span class="tech-tag"><i class="fa-solid fa-filter"></i> Power Query ETL</span>
+                  <span class="tech-tag"><i class="fa-solid fa-sitemap"></i> Star Schema</span>
+                  <span class="tech-tag"><i class="fa-solid fa-palette"></i> Canva UI/UX</span>
+                </div>
+
+                <div class="project-actions">
+                  <a href="https://github.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-brands fa-github"></i> View GitHub Repository
+                  </a>
+                  <button class="btn btn-outline" onclick="openLightbox(document.getElementById('morshedy-main-img').src, 'Morshedy Real Estate - Full Resolution Architecture')">
+                    <i class="fa-solid fa-expand"></i> Inspect Visuals
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Project 2: Supply Chain & Sales Performance -->
+          <article class="project-showcase glass-panel">
+            <div class="project-showcase-grid">
+              <!-- Visual Gallery -->
+              <div class="project-media">
+                <div class="main-image-wrapper">
+                  <img src="images/supply_chain_dashboard.png" onerror="this.src='https://raw.githubusercontent.com/elsayed-elkassas/Supply-Chain-Analytics-PowerBI/main/DASHBORD.png'" alt="Supply Chain & Sales Performance Dashboard" id="supply-chain-main-img" class="zoomable-image">
+                  <button class="expand-btn" onclick="openLightbox(document.getElementById('supply-chain-main-img').src, 'Supply Chain & Sales Analytics Dashboard Preview')">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i> Fullscreen
+                  </button>
+                </div>
+              </div>
+
+              <!-- Project Description -->
+              <div class="project-info">
+                <div class="project-badge-row">
+                  <span class="badge badge-accent"><i class="fa-solid fa-truck-fast"></i> Supply Chain BI</span>
+                  <span class="badge badge-neutral"><i class="fa-solid fa-users"></i> Customer Demographics</span>
+                </div>
+
+                <h3 class="project-heading">Supply Chain & Sales Performance Analytics</h3>
+                <p class="project-lead">
+                  An end-to-end analytics solution evaluating sales trends, order fulfillment rates, and customer household demographics using a relational <strong>Star Schema</strong>.
+                </p>
+
+                <div class="project-highlights">
+                  <h4><i class="fa-solid fa-chart-line text-accent"></i> Key Business Insights & Visuals</h4>
+                  <ul>
+                    <li><strong>Custom KPI Container Design:</strong> Real-time tracking of Total Sales, Total Orders, Order Quantities, and Average Order Value (AOV).</li>
+                    <li><strong>Department & Brand Breakdown:</strong> Revenue ranking across top 5 product departments and market share comparison between National vs. Private brands.</li>
+                    <li><strong>Demographic Segmentation:</strong> Implemented robust data cleansing to resolve missing age demographics and segment household purchasing behaviors.</li>
+                    <li><strong>Relational Modeling:</strong> Seamlessly connected fact transaction lines with product, order, and household dimension tables.</li>
+                  </ul>
+                </div>
+
+                <div class="project-tech-stack">
+                  <span class="tech-tag"><i class="fa-solid fa-chart-simple"></i> Power BI Desktop</span>
+                  <span class="tech-tag"><i class="fa-solid fa-database"></i> SQL (Joins, CTEs)</span>
+                  <span class="tech-tag"><i class="fa-solid fa-sitemap"></i> Star Schema</span>
+                  <span class="tech-tag"><i class="fa-solid fa-calculator"></i> DAX Measures</span>
+                  <span class="tech-tag"><i class="fa-solid fa-table"></i> Excel Analysis</span>
+                </div>
+
+                <div class="project-actions">
+                  <a href="https://github.com/elsayed-elkassas/Supply-Chain-Analytics-PowerBI" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-brands fa-github"></i> View GitHub Repository
+                  </a>
+                  <a href="https://drive.google.com/drive/folders/1GT6r82f8JBUypAGLpQscPdk-1_gjjoZR?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <i class="fa-solid fa-database"></i> Access Dataset
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Live GitHub Repositories Grid -->
+        <div class="github-repos-section">
+          <div class="github-header">
+            <h3><i class="fa-brands fa-github text-accent"></i> All GitHub Repositories</h3>
+            <p>Live sync from <a href="https://github.com/elsayed-elkassas" target="_blank" rel="noopener">@elsayed-elkassas</a></p>
+          </div>
+          <div class="repos-grid" id="repos-container">
+            <!-- Dynamic Repos injected by script.js or static fallback -->
+            <div class="repo-card glass-panel">
+              <div class="repo-card-top">
+                <i class="fa-solid fa-folder-open folder-icon"></i>
+                <a href="https://github.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <h4><a href="https://github.com/elsayed-elkassas/Morshedy-Real-Estate-Dashboard" target="_blank">Morshedy-Real-Estate-Dashboard</a></h4>
+              <p>An enterprise-grade Power BI Collection & Financial Risk Intelligence Dashboard.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="lang-color powerbi-color"></span> Power BI / DAX</span>
+                <span class="repo-stars"><i class="fa-regular fa-star"></i> Featured</span>
+              </div>
+            </div>
+
+            <div class="repo-card glass-panel">
+              <div class="repo-card-top">
+                <i class="fa-solid fa-folder-open folder-icon"></i>
+                <a href="https://github.com/elsayed-elkassas/Supply-Chain-Analytics-PowerBI" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <h4><a href="https://github.com/elsayed-elkassas/Supply-Chain-Analytics-PowerBI" target="_blank">Supply-Chain-Analytics-PowerBI</a></h4>
+              <p>End-to-end analytics report evaluating sales trends, order fulfillment rates, and customer demographics.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="lang-color powerbi-color"></span> Power BI / SQL</span>
+                <span class="repo-stars"><i class="fa-regular fa-star"></i> Featured</span>
+              </div>
+            </div>
+
+            <div class="repo-card glass-panel">
+              <div class="repo-card-top">
+                <i class="fa-solid fa-folder-open folder-icon"></i>
+                <a href="https://github.com/elsayed-elkassas/Elsayed-Elkassas" target="_blank" class="repo-link"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <h4><a href="https://github.com/elsayed-elkassas/Elsayed-Elkassas" target="_blank">Elsayed-Elkassas (Profile)</a></h4>
+              <p>Central developer profile README with professional data analysis summary and tech stack roadmap.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="lang-color markdown-color"></span> Markdown / Config</span>
+                <span class="repo-stars"><i class="fa-regular fa-star"></i> Config</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-timeline"></i> Journey</span>
+          <h2 class="section-title">Experience & <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic rigor coupled with applied professional mentorship</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date"><i class="fa-solid fa-calendar-days"></i> Jan 2026 - Present</div>
+              <h3 class="timeline-role">Data Analysis Training & Projects</h3>
+              <h4 class="timeline-company"><i class="fa-solid fa-graduation-cap"></i> Route Academy</h4>
+              <p class="timeline-desc">
+                Developed and executed multiple end-to-end business intelligence and data analytics projects under professional mentorship. Applied advanced data cleaning, ETL workflows, and relational modeling to production-level datasets using Microsoft Power BI, SQL Server, and Excel.
+              </p>
+              <div class="timeline-tags">
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>SQL Server</span>
+                <span>Power Query</span>
+                <span>Data Modeling</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date"><i class="fa-solid fa-calendar-days"></i> In Progress</div>
+              <h3 class="timeline-role">Bachelor of Computer Science (B.Sc.)</h3>
+              <h4 class="timeline-company"><i class="fa-solid fa-university"></i> Faculty of Computers and Information, Kafrelsheikh University</h4>
+              <p class="timeline-desc">
+                Core coursework in Database Management Systems (DBMS), Data Structures & Algorithms, Object-Oriented Programming (C#), Software Engineering, and Probability & Statistics for Data Science.
+              </p>
+              <div class="timeline-tags">
+                <span>Computer Science</span>
+                <span>Database Systems</span>
+                <span>Algorithms</span>
+                <span>C#</span>
+                <span>Statistics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-envelope-open-text"></i> Reach Out</span>
+          <h2 class="section-title">Let's Connect & <span class="gradient-text">Collaborate</span></h2>
+          <p class="section-subtitle">Interested in discussing a data analyst role, consulting, or project collaboration?</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels -->
+          <div class="contact-channels glass-panel">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out via email, phone, or LinkedIn. I am always happy to connect!</p>
+
+            <div class="channel-list">
+              <a href="mailto:elsayedelkasas79@gmail.com" class="channel-card">
+                <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-info">
+                  <span class="channel-label">Email Me</span>
+                  <span class="channel-val">elsayedelkasas79@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+201063160081" class="channel-card">
+                <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="channel-info">
+                  <span class="channel-label">Call / WhatsApp</span>
+                  <span class="channel-val">+20 106 316 0081</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/elsayed-elkassas-84686638a" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="channel-info">
+                  <span class="channel-label">LinkedIn</span>
+                  <span class="channel-val">linkedin.com/in/elsayed-elkassas</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/elsayed-elkassas" target="_blank" rel="noopener noreferrer" class="channel-card">
+                <div class="channel-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="channel-info">
+                  <span class="channel-label">GitHub</span>
+                  <span class="channel-val">github.com/elsayed-elkassas</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Message Form -->
+          <div class="contact-form-wrapper glass-panel">
+            <h3>Send a Direct Message</h3>
+            <form id="contact-form" onsubmit="handleContactSubmit(event)">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required placeholder="e.g. John Doe">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="john@example.com">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" required placeholder="Data Analyst Opportunity / Project Inquiry">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required placeholder="Hi Elsayed, I came across your portfolio and would like to discuss..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+            <div id="form-feedback" class="form-feedback"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal for Dashboards -->
+  <div id="lightbox-modal" class="lightbox-modal" onclick="closeLightbox(event)">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <img id="lightbox-img" src="" alt="Dashboard Zoom">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>&copy; 2026 <strong>Elsayed Elkassas</strong>. Built with data precision & passion.</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/elsayed-elkassas" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/elsayed-elkassas-84686638a" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:elsayedelkasas79@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+201063160081" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
